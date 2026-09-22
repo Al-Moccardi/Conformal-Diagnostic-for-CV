@@ -6,7 +6,6 @@ Code, stored results and reproduction scripts for
 
 The repository implements a **post-hoc, output-only** monitoring layer for object detectors built on split conformal prediction (CP), and the experiments that evaluate it on COCO val2017 with four detectors (YOLOv8x, YOLOv11x, RT-DETR-L, DETR-R101), four gradient attacks plus APGD (eleven model–attack pairs, all suppression-type and non-adaptive) and five natural corruptions.
 
-> **Revision note.** The calibrator shipped with the submitted version put every raw detection into the calibration set, which pinned the conformal confidence threshold at τ = 0 (filter inactive). This is fixed in `src/calibration/adaptive_conformal.py` (calibration on matched true positives only, Eq. 11 of the paper). All tables of the revised paper are regenerated from the stored predictions by the scripts in `scripts/rebuttal/`; see [RUNBOOK.md](RUNBOOK.md) for the commands and [Section 6](#6-changelog-of-the-revision) for what changed. The manuscript is `paper/paper_revision_v8_clean.tex` (marked copy: `paper_revision_v8_marked.tex`); the response letters are `paper/Response_to_Reviewer_1_v8.docx` and `Response_to_Reviewer_2_v8.docx`.
 
 ---
 
