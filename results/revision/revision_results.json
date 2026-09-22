@@ -1,0 +1,22 @@
+{
+  "pvalues": {
+    "fgsm": {
+      "adv_pval_mean": 0.46078872200845866,
+      "adv_pval_std": 0.28916166295266293,
+      "global_ks_stat": 0.06872029791090523,
+      "global_ks_p": 4.580308505635661e-08,
+      "auroc_ks": 0.510689715455097,
+      "n_clean_imgs": 2069,
+      "n_adv_imgs": 94
+    },
+    "pgd-20": {
+      "adv_pval_mean": 0.46275822348885776,
+      "adv_pval_std": 0.28467101372057024,
+      "global_ks_stat": 0.06243505366136154,
+      "global_ks_p": 6.277532770794327e-08,
+      "auroc_ks": 0.5215354365306033,
+      "n_clean_imgs": 2069,
+      "n_adv_imgs": 88
+    }
+  }
+}

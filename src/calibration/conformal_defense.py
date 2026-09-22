@@ -307,7 +307,10 @@ class ConformalAttackDetector:
             "mean_n_det": float(np.mean(n_dets)) if n_dets else 10,
             "std_n_det": float(max(np.std(n_dets), 1.0)) if n_dets else 5,
             "mean_abst": float(np.mean(abst_rates)) if abst_rates else 0,
-            "threshold_uses_filtering": float(np.mean(abst_rates)) > 0.01,
+            # The anomaly score is ALWAYS the composite of Eq. (12); the
+            # per-detection conformal filter (tau) and the per-image
+            # abstention rule are independent (revision, GE point 2).
+            "threshold_uses_filtering": False,
         }
         return self
 
@@ -428,7 +431,9 @@ class SelectivePredictor:
         self.calibrator = calibrator
         self.tau = tau
         self.detector = detector
-        self._uses_anomaly = (calibrator.conf_threshold < 0.001)
+        # The abstention decision always uses the composite anomaly score of
+        # Eq. (12); the conformal threshold tau filters individual detections.
+        self._uses_anomaly = True
 
     def _ensure_detector(self, clean_preds_by_image=None):
         """Create and fit detector if needed."""

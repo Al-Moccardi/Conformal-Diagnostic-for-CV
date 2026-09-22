@@ -1,0 +1,13 @@
+{
+  "attack": "APGD",
+  "model": "detr-resnet101",
+  "steps": 100,
+  "restarts": 5,
+  "eps": 0.03137254901960784,
+  "n_images": 100,
+  "clean_mean_cov": 0.017843310111599286,
+  "adv_mean_cov": 0.009894223481882049,
+  "coverage_gap": 0.890105776518118,
+  "clean_dets_per_img": 54.87,
+  "adv_dets_per_img": 98.56
+}

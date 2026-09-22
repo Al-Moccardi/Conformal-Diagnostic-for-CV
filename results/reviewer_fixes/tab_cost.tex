@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Computational cost comparison of defense methods.}
+\label{tab:cost}
+\small
+\begin{tabular}{lcccc}
+\toprule
+    Method & Training & Inference & Model- & Formal \\
+           & Cost     & Overhead  & Agnostic & Guarantees \\
+\midrule
+    No defense & 0 & 0ms & -- & No \\
+    Adversarial Training & 10--50$\times$ & 0ms & No & No \\
+    JPEG Compression & 0 & $\sim$5ms & Yes & No \\
+    Feature Squeezing & 0 & $\sim$15ms & Yes & No \\
+    \textbf{CP (ours)} & \textbf{0} & \textbf{<1ms} & \textbf{Yes} & \textbf{Yes} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,54 @@
+{
+  "yolov8x": {
+    "n_cal_pairs": 16581,
+    "n_cal_images": 2468,
+    "n_test_pairs": 15833,
+    "n_test_images": 2468,
+    "tau_pooled": 0.04711111866179918,
+    "cov_cp_pooled": 0.9003979031137498,
+    "tau_onepair_mean": 0.08898192354029642,
+    "tau_onepair_sd": 0.00920951483011453,
+    "cov_cp_onepair_cal_pooled_test": 0.8600789490305059,
+    "cov_cp_onepair_cal_onepair_test": 0.901645056726094,
+    "cov_cp_onepair_sd": 0.006920417406408946
+  },
+  "yolov11x": {
+    "n_cal_pairs": 16621,
+    "n_cal_images": 2466,
+    "n_test_pairs": 15939,
+    "n_test_images": 2469,
+    "tau_pooled": 0.042361984193364455,
+    "cov_cp_pooled": 0.9071459941025158,
+    "tau_onepair_mean": 0.0768344392501187,
+    "tau_onepair_sd": 0.007948962554470314,
+    "cov_cp_onepair_cal_pooled_test": 0.8708927787188658,
+    "cov_cp_onepair_cal_onepair_test": 0.9080396921830701,
+    "cov_cp_onepair_sd": 0.007126867311799647
+  },
+  "rtdetr-l": {
+    "n_cal_pairs": 17031,
+    "n_cal_images": 2475,
+    "n_test_pairs": 16107,
+    "n_test_images": 2474,
+    "tau_pooled": 0.2029922196758479,
+    "cov_cp_pooled": 0.9034581237971069,
+    "tau_onepair_mean": 0.23679036634419912,
+    "tau_onepair_sd": 0.010895245646175578,
+    "cov_cp_onepair_cal_pooled_test": 0.8809592102812442,
+    "cov_cp_onepair_cal_onepair_test": 0.9036459175424413,
+    "cov_cp_onepair_sd": 0.0068991737611230905
+  },
+  "detr-resnet101": {
+    "n_cal_pairs": 14831,
+    "n_cal_images": 2455,
+    "n_test_pairs": 14804,
+    "n_test_images": 2473,
+    "tau_pooled": 0.38704952366329093,
+    "cov_cp_pooled": 0.8975276952175087,
+    "tau_onepair_mean": 0.4460290418215046,
+    "tau_onepair_sd": 0.03977326891329175,
+    "cov_cp_onepair_cal_pooled_test": 0.8897358821940017,
+    "cov_cp_onepair_cal_onepair_test": 0.8955964415689447,
+    "cov_cp_onepair_sd": 0.006791128344607359
+  }
+}

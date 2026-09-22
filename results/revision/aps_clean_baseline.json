@@ -1,0 +1,902 @@
+{
+  "139": {
+    "n_dets": 59,
+    "mean_conf": 0.4792851619422436,
+    "max_conf": 0.9993911981582642,
+    "mean_set_size": 68.13559322033899,
+    "max_set_size": 91,
+    "mean_entropy": 0.29679472189222983,
+    "frac_large_sets": 0.7457627118644068
+  },
+  "285": {
+    "n_dets": 1,
+    "mean_conf": 0.999879002571106,
+    "max_conf": 0.999879002571106,
+    "mean_set_size": 1.0,
+    "max_set_size": 1,
+    "mean_entropy": 0.0009780124528333545,
+    "frac_large_sets": 0.0
+  },
+  "632": {
+    "n_dets": 86,
+    "mean_conf": 0.6462549114123334,
+    "max_conf": 0.9963085055351257,
+    "mean_set_size": 83.67441860465117,
+    "max_set_size": 91,
+    "mean_entropy": 0.2583435945169524,
+    "frac_large_sets": 0.9186046511627907
+  },
+  "724": {
+    "n_dets": 11,
+    "mean_conf": 0.3784895214167508,
+    "max_conf": 0.9992538094520569,
+    "mean_set_size": 82.81818181818181,
+    "max_set_size": 91,
+    "mean_entropy": 0.2674135125496171,
+    "frac_large_sets": 0.9090909090909091
+  },
+  "776": {
+    "n_dets": 19,
+    "mean_conf": 0.30344660560551445,
+    "max_conf": 0.9630284905433655,
+    "mean_set_size": 81.52631578947368,
+    "max_set_size": 91,
+    "mean_entropy": 0.2441456143401171,
+    "frac_large_sets": 0.8947368421052632
+  },
+  "785": {
+    "n_dets": 16,
+    "mean_conf": 0.2594282692298293,
+    "max_conf": 0.9995670914649963,
+    "mean_set_size": 79.75,
+    "max_set_size": 91,
+    "mean_entropy": 0.21342103625647724,
+    "frac_large_sets": 0.875
+  },
+  "802": {
+    "n_dets": 3,
+    "mean_conf": 0.7339194118976593,
+    "max_conf": 0.9991490840911865,
+    "mean_set_size": 31.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.11229268096697827,
+    "frac_large_sets": 0.3333333333333333
+  },
+  "872": {
+    "n_dets": 16,
+    "mean_conf": 0.30979550653137267,
+    "max_conf": 0.9907949566841125,
+    "mean_set_size": 85.375,
+    "max_set_size": 91,
+    "mean_entropy": 0.21401243668515235,
+    "frac_large_sets": 0.9375
+  },
+  "885": {
+    "n_dets": 39,
+    "mean_conf": 0.4007552627187509,
+    "max_conf": 0.9995430707931519,
+    "mean_set_size": 70.23076923076923,
+    "max_set_size": 91,
+    "mean_entropy": 0.22069178423575628,
+    "frac_large_sets": 0.7692307692307693
+  },
+  "1000": {
+    "n_dets": 63,
+    "mean_conf": 0.4787976879567381,
+    "max_conf": 0.999313473701477,
+    "mean_set_size": 69.57142857142857,
+    "max_set_size": 91,
+    "mean_entropy": 0.3057326665037267,
+    "frac_large_sets": 0.7619047619047619
+  },
+  "1268": {
+    "n_dets": 51,
+    "mean_conf": 0.3621330413163877,
+    "max_conf": 0.9994503855705261,
+    "mean_set_size": 73.3529411764706,
+    "max_set_size": 91,
+    "mean_entropy": 0.3174277501701213,
+    "frac_large_sets": 0.803921568627451
+  },
+  "1296": {
+    "n_dets": 30,
+    "mean_conf": 0.4007188151280085,
+    "max_conf": 0.9993422627449036,
+    "mean_set_size": 85.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.21665592745994217,
+    "frac_large_sets": 0.9333333333333333
+  },
+  "1353": {
+    "n_dets": 52,
+    "mean_conf": 0.2750823391028322,
+    "max_conf": 0.9933819770812988,
+    "mean_set_size": 78.88461538461539,
+    "max_set_size": 91,
+    "mean_entropy": 0.24390798538493422,
+    "frac_large_sets": 0.8653846153846154
+  },
+  "1425": {
+    "n_dets": 9,
+    "mean_conf": 0.4596778568294313,
+    "max_conf": 0.9960904717445374,
+    "mean_set_size": 71.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.247231413403319,
+    "frac_large_sets": 0.7777777777777778
+  },
+  "1490": {
+    "n_dets": 2,
+    "mean_conf": 0.9995714128017426,
+    "max_conf": 0.9996874332427979,
+    "mean_set_size": 1.0,
+    "max_set_size": 1,
+    "mean_entropy": 0.001953618077095598,
+    "frac_large_sets": 0.0
+  },
+  "1503": {
+    "n_dets": 17,
+    "mean_conf": 0.5229707982610253,
+    "max_conf": 0.9988538026809692,
+    "mean_set_size": 59.23529411764706,
+    "max_set_size": 91,
+    "mean_entropy": 0.26607587295310464,
+    "frac_large_sets": 0.6470588235294118
+  },
+  "1532": {
+    "n_dets": 41,
+    "mean_conf": 0.433551923439997,
+    "max_conf": 0.9983097314834595,
+    "mean_set_size": 64.65853658536585,
+    "max_set_size": 91,
+    "mean_entropy": 0.21515161174962796,
+    "frac_large_sets": 0.7073170731707317
+  },
+  "1584": {
+    "n_dets": 69,
+    "mean_conf": 0.2527837844538516,
+    "max_conf": 0.9988574981689453,
+    "mean_set_size": 81.8695652173913,
+    "max_set_size": 91,
+    "mean_entropy": 0.30539065796503984,
+    "frac_large_sets": 0.8985507246376812
+  },
+  "1675": {
+    "n_dets": 10,
+    "mean_conf": 0.36897538490593434,
+    "max_conf": 0.9936422109603882,
+    "mean_set_size": 73.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.23183025987818837,
+    "frac_large_sets": 0.8
+  },
+  "1761": {
+    "n_dets": 38,
+    "mean_conf": 0.22442139704760752,
+    "max_conf": 0.9984344840049744,
+    "mean_set_size": 83.89473684210526,
+    "max_set_size": 91,
+    "mean_entropy": 0.23872313675421633,
+    "frac_large_sets": 0.9210526315789473
+  },
+  "1818": {
+    "n_dets": 9,
+    "mean_conf": 0.3274515060087045,
+    "max_conf": 0.9628866910934448,
+    "mean_set_size": 71.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.21823110514216953,
+    "frac_large_sets": 0.7777777777777778
+  },
+  "1993": {
+    "n_dets": 21,
+    "mean_conf": 0.3197434906448637,
+    "max_conf": 0.9981932044029236,
+    "mean_set_size": 78.14285714285714,
+    "max_set_size": 91,
+    "mean_entropy": 0.2081147154260959,
+    "frac_large_sets": 0.8571428571428571
+  },
+  "2006": {
+    "n_dets": 24,
+    "mean_conf": 0.4224294093437493,
+    "max_conf": 0.9996267557144165,
+    "mean_set_size": 68.5,
+    "max_set_size": 91,
+    "mean_entropy": 0.24610208632657304,
+    "frac_large_sets": 0.75
+  },
+  "2149": {
+    "n_dets": 20,
+    "mean_conf": 0.31992920227348803,
+    "max_conf": 0.9945945143699646,
+    "mean_set_size": 82.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.2573493566829711,
+    "frac_large_sets": 0.9
+  },
+  "2153": {
+    "n_dets": 8,
+    "mean_conf": 0.7467918964102864,
+    "max_conf": 0.9990010857582092,
+    "mean_set_size": 34.75,
+    "max_set_size": 91,
+    "mean_entropy": 0.08515967540733982,
+    "frac_large_sets": 0.375
+  },
+  "2157": {
+    "n_dets": 60,
+    "mean_conf": 0.46499711150924367,
+    "max_conf": 0.9987356066703796,
+    "mean_set_size": 68.58333333333333,
+    "max_set_size": 91,
+    "mean_entropy": 0.2763645661684374,
+    "frac_large_sets": 0.7666666666666667
+  },
+  "2261": {
+    "n_dets": 5,
+    "mean_conf": 0.47450886070728304,
+    "max_conf": 0.9990565180778503,
+    "mean_set_size": 55.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.15519573285710067,
+    "frac_large_sets": 0.6
+  },
+  "2299": {
+    "n_dets": 69,
+    "mean_conf": 0.6313444045574769,
+    "max_conf": 0.982470691204071,
+    "mean_set_size": 74.04347826086956,
+    "max_set_size": 91,
+    "mean_entropy": 0.2502740448529738,
+    "frac_large_sets": 0.8115942028985508
+  },
+  "2431": {
+    "n_dets": 21,
+    "mean_conf": 0.4672785209757941,
+    "max_conf": 0.9979217648506165,
+    "mean_set_size": 65.28571428571429,
+    "max_set_size": 91,
+    "mean_entropy": 0.21561652049422264,
+    "frac_large_sets": 0.7142857142857143
+  },
+  "2473": {
+    "n_dets": 8,
+    "mean_conf": 0.7723719635978341,
+    "max_conf": 0.9997825026512146,
+    "mean_set_size": 34.75,
+    "max_set_size": 91,
+    "mean_entropy": 0.08601960485611926,
+    "frac_large_sets": 0.375
+  },
+  "2532": {
+    "n_dets": 2,
+    "mean_conf": 0.998335212469101,
+    "max_conf": 0.9997379183769226,
+    "mean_set_size": 1.0,
+    "max_set_size": 1,
+    "mean_entropy": 0.0036226312076905742,
+    "frac_large_sets": 0.0
+  },
+  "2587": {
+    "n_dets": 1,
+    "mean_conf": 0.9986322522163391,
+    "max_conf": 0.9986322522163391,
+    "mean_set_size": 1.0,
+    "max_set_size": 1,
+    "mean_entropy": 0.004653226118534803,
+    "frac_large_sets": 0.0
+  },
+  "2592": {
+    "n_dets": 3,
+    "mean_conf": 0.9101253747940063,
+    "max_conf": 0.998920202255249,
+    "mean_set_size": 31.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.08229113517639537,
+    "frac_large_sets": 0.3333333333333333
+  },
+  "2685": {
+    "n_dets": 76,
+    "mean_conf": 0.5467820729766237,
+    "max_conf": 0.9996169805526733,
+    "mean_set_size": 66.13157894736842,
+    "max_set_size": 91,
+    "mean_entropy": 0.3252699643420975,
+    "frac_large_sets": 0.7236842105263158
+  },
+  "2923": {
+    "n_dets": 20,
+    "mean_conf": 0.26796978414058686,
+    "max_conf": 0.9977939128875732,
+    "mean_set_size": 77.5,
+    "max_set_size": 91,
+    "mean_entropy": 0.21289305221289395,
+    "frac_large_sets": 0.85
+  },
+  "3156": {
+    "n_dets": 6,
+    "mean_conf": 0.5212265451749166,
+    "max_conf": 0.9894874095916748,
+    "mean_set_size": 61.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.1712978882715106,
+    "frac_large_sets": 0.6666666666666666
+  },
+  "3255": {
+    "n_dets": 64,
+    "mean_conf": 0.28893850900931284,
+    "max_conf": 0.9984495639801025,
+    "mean_set_size": 79.75,
+    "max_set_size": 91,
+    "mean_entropy": 0.2709063369075011,
+    "frac_large_sets": 0.875
+  },
+  "3501": {
+    "n_dets": 9,
+    "mean_conf": 0.6838791991273562,
+    "max_conf": 0.9809541702270508,
+    "mean_set_size": 61.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.17654267450173697,
+    "frac_large_sets": 0.6666666666666666
+  },
+  "3553": {
+    "n_dets": 4,
+    "mean_conf": 0.645169448107481,
+    "max_conf": 0.9972787499427795,
+    "mean_set_size": 46.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.17152639175765216,
+    "frac_large_sets": 0.5
+  },
+  "3661": {
+    "n_dets": 18,
+    "mean_conf": 0.2898522447794676,
+    "max_conf": 0.9991486072540283,
+    "mean_set_size": 76.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.21711529769365573,
+    "frac_large_sets": 0.8333333333333334
+  },
+  "3845": {
+    "n_dets": 28,
+    "mean_conf": 0.5157498487138322,
+    "max_conf": 0.9988376498222351,
+    "mean_set_size": 52.42857142857143,
+    "max_set_size": 91,
+    "mean_entropy": 0.1611747273709625,
+    "frac_large_sets": 0.5714285714285714
+  },
+  "3934": {
+    "n_dets": 60,
+    "mean_conf": 0.4488042835146189,
+    "max_conf": 0.9985141158103943,
+    "mean_set_size": 74.5,
+    "max_set_size": 91,
+    "mean_entropy": 0.31587504577861786,
+    "frac_large_sets": 0.8166666666666667
+  },
+  "4134": {
+    "n_dets": 98,
+    "mean_conf": 0.5359124196123104,
+    "max_conf": 0.9995718598365784,
+    "mean_set_size": 67.12244897959184,
+    "max_set_size": 91,
+    "mean_entropy": 0.5465456988669609,
+    "frac_large_sets": 0.7346938775510204
+  },
+  "4395": {
+    "n_dets": 2,
+    "mean_conf": 0.9996568560600281,
+    "max_conf": 0.9996817111968994,
+    "mean_set_size": 1.0,
+    "max_set_size": 1,
+    "mean_entropy": 0.0006271602760534734,
+    "frac_large_sets": 0.0
+  },
+  "4495": {
+    "n_dets": 7,
+    "mean_conf": 0.600236598934446,
+    "max_conf": 0.9989331364631653,
+    "mean_set_size": 52.42857142857143,
+    "max_set_size": 91,
+    "mean_entropy": 0.2000367677704032,
+    "frac_large_sets": 0.5714285714285714
+  },
+  "4765": {
+    "n_dets": 3,
+    "mean_conf": 0.8759870529174805,
+    "max_conf": 0.9996353387832642,
+    "mean_set_size": 31.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.10296738994657062,
+    "frac_large_sets": 0.3333333333333333
+  },
+  "4795": {
+    "n_dets": 16,
+    "mean_conf": 0.3893795092590153,
+    "max_conf": 0.998412013053894,
+    "mean_set_size": 68.5,
+    "max_set_size": 91,
+    "mean_entropy": 0.20707783743273467,
+    "frac_large_sets": 0.75
+  },
+  "5001": {
+    "n_dets": 71,
+    "mean_conf": 0.514371151498086,
+    "max_conf": 0.9970139265060425,
+    "mean_set_size": 68.19718309859155,
+    "max_set_size": 91,
+    "mean_entropy": 0.3012262382347819,
+    "frac_large_sets": 0.7464788732394366
+  },
+  "5037": {
+    "n_dets": 69,
+    "mean_conf": 0.2822772739050181,
+    "max_conf": 0.9994531273841858,
+    "mean_set_size": 77.95652173913044,
+    "max_set_size": 91,
+    "mean_entropy": 0.34006545261101984,
+    "frac_large_sets": 0.855072463768116
+  },
+  "5060": {
+    "n_dets": 15,
+    "mean_conf": 0.35474216664830843,
+    "max_conf": 0.9995473027229309,
+    "mean_set_size": 73.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.24071921640230964,
+    "frac_large_sets": 0.8
+  },
+  "5193": {
+    "n_dets": 21,
+    "mean_conf": 0.5841683826985813,
+    "max_conf": 0.999710738658905,
+    "mean_set_size": 56.714285714285715,
+    "max_set_size": 91,
+    "mean_entropy": 0.1603366049197835,
+    "frac_large_sets": 0.6190476190476191
+  },
+  "5477": {
+    "n_dets": 8,
+    "mean_conf": 0.40701378881931305,
+    "max_conf": 0.9994309544563293,
+    "mean_set_size": 68.5,
+    "max_set_size": 91,
+    "mean_entropy": 0.18827828645589761,
+    "frac_large_sets": 0.75
+  },
+  "5503": {
+    "n_dets": 15,
+    "mean_conf": 0.32482664038737613,
+    "max_conf": 0.9394473433494568,
+    "mean_set_size": 79.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.2170284330844879,
+    "frac_large_sets": 0.8666666666666667
+  },
+  "5529": {
+    "n_dets": 2,
+    "mean_conf": 0.9941137731075287,
+    "max_conf": 0.9995428323745728,
+    "mean_set_size": 1.0,
+    "max_set_size": 1,
+    "mean_entropy": 0.009178901062114164,
+    "frac_large_sets": 0.0
+  },
+  "5586": {
+    "n_dets": 94,
+    "mean_conf": 0.4644026662758056,
+    "max_conf": 0.9991389513015747,
+    "mean_set_size": 84.29787234042553,
+    "max_set_size": 91,
+    "mean_entropy": 0.38273923061391774,
+    "frac_large_sets": 0.925531914893617
+  },
+  "5600": {
+    "n_dets": 15,
+    "mean_conf": 0.5636499668161075,
+    "max_conf": 0.9936297535896301,
+    "mean_set_size": 55.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.1868708932151397,
+    "frac_large_sets": 0.6
+  },
+  "5992": {
+    "n_dets": 12,
+    "mean_conf": 0.5508855106309056,
+    "max_conf": 0.9995790123939514,
+    "mean_set_size": 53.5,
+    "max_set_size": 91,
+    "mean_entropy": 0.13414558426787457,
+    "frac_large_sets": 0.5833333333333334
+  },
+  "6012": {
+    "n_dets": 9,
+    "mean_conf": 0.5259364156259431,
+    "max_conf": 0.9973032474517822,
+    "mean_set_size": 61.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.19507402735244897,
+    "frac_large_sets": 0.6666666666666666
+  },
+  "6040": {
+    "n_dets": 46,
+    "mean_conf": 0.3825384074741084,
+    "max_conf": 0.999169111251831,
+    "mean_set_size": 69.47826086956522,
+    "max_set_size": 91,
+    "mean_entropy": 0.2066767204593381,
+    "frac_large_sets": 0.7608695652173914
+  },
+  "6213": {
+    "n_dets": 8,
+    "mean_conf": 0.31011592131108046,
+    "max_conf": 0.9875231385231018,
+    "mean_set_size": 68.5,
+    "max_set_size": 91,
+    "mean_entropy": 0.1582113115582615,
+    "frac_large_sets": 0.75
+  },
+  "6460": {
+    "n_dets": 6,
+    "mean_conf": 0.5364168460170428,
+    "max_conf": 0.9987949132919312,
+    "mean_set_size": 61.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.33067163929808885,
+    "frac_large_sets": 0.6666666666666666
+  },
+  "6471": {
+    "n_dets": 57,
+    "mean_conf": 0.4710406719200444,
+    "max_conf": 0.9993615746498108,
+    "mean_set_size": 68.89473684210526,
+    "max_set_size": 91,
+    "mean_entropy": 0.24555476728352932,
+    "frac_large_sets": 0.7543859649122807
+  },
+  "6614": {
+    "n_dets": 9,
+    "mean_conf": 0.20602032956149843,
+    "max_conf": 0.39872056245803833,
+    "mean_set_size": 91.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.3733433402246899,
+    "frac_large_sets": 1.0
+  },
+  "6723": {
+    "n_dets": 70,
+    "mean_conf": 0.31889897707317555,
+    "max_conf": 0.9973879456520081,
+    "mean_set_size": 82.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.27780131456841317,
+    "frac_large_sets": 0.9
+  },
+  "6763": {
+    "n_dets": 32,
+    "mean_conf": 0.3465396829415113,
+    "max_conf": 0.9976639747619629,
+    "mean_set_size": 71.3125,
+    "max_set_size": 91,
+    "mean_entropy": 0.22357104936963879,
+    "frac_large_sets": 0.78125
+  },
+  "6771": {
+    "n_dets": 39,
+    "mean_conf": 0.42698016294684166,
+    "max_conf": 0.9994246959686279,
+    "mean_set_size": 58.69230769230769,
+    "max_set_size": 91,
+    "mean_entropy": 0.16716694181713349,
+    "frac_large_sets": 0.6410256410256411
+  },
+  "6818": {
+    "n_dets": 2,
+    "mean_conf": 0.5189142227172852,
+    "max_conf": 0.9815975427627563,
+    "mean_set_size": 46.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.09119527786970139,
+    "frac_large_sets": 0.5
+  },
+  "6894": {
+    "n_dets": 13,
+    "mean_conf": 0.44051824137568474,
+    "max_conf": 0.9947698712348938,
+    "mean_set_size": 70.23076923076923,
+    "max_set_size": 91,
+    "mean_entropy": 0.246009058605593,
+    "frac_large_sets": 0.7692307692307693
+  },
+  "6954": {
+    "n_dets": 13,
+    "mean_conf": 0.6822008109436586,
+    "max_conf": 0.9995751976966858,
+    "mean_set_size": 35.61538461538461,
+    "max_set_size": 91,
+    "mean_entropy": 0.12714191360058835,
+    "frac_large_sets": 0.38461538461538464
+  },
+  "7088": {
+    "n_dets": 18,
+    "mean_conf": 0.4706463762041595,
+    "max_conf": 0.999494194984436,
+    "mean_set_size": 71.05555555555556,
+    "max_set_size": 91,
+    "mean_entropy": 0.19394281479374817,
+    "frac_large_sets": 0.7777777777777778
+  },
+  "7108": {
+    "n_dets": 9,
+    "mean_conf": 0.5820133553610908,
+    "max_conf": 0.9992232322692871,
+    "mean_set_size": 51.111111111111114,
+    "max_set_size": 91,
+    "mean_entropy": 0.22317031043995586,
+    "frac_large_sets": 0.5555555555555556
+  },
+  "7278": {
+    "n_dets": 5,
+    "mean_conf": 0.6426536932587623,
+    "max_conf": 0.999717652797699,
+    "mean_set_size": 55.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.15452845110557972,
+    "frac_large_sets": 0.6
+  },
+  "7281": {
+    "n_dets": 32,
+    "mean_conf": 0.538613794837147,
+    "max_conf": 0.9996846914291382,
+    "mean_set_size": 57.25,
+    "max_set_size": 91,
+    "mean_entropy": 0.14781405233588885,
+    "frac_large_sets": 0.625
+  },
+  "7386": {
+    "n_dets": 21,
+    "mean_conf": 0.3462113074603535,
+    "max_conf": 0.9987779259681702,
+    "mean_set_size": 78.14285714285714,
+    "max_set_size": 91,
+    "mean_entropy": 0.2618487293698958,
+    "frac_large_sets": 0.8571428571428571
+  },
+  "7511": {
+    "n_dets": 92,
+    "mean_conf": 0.4110225914856014,
+    "max_conf": 0.9996428489685059,
+    "mean_set_size": 80.25,
+    "max_set_size": 91,
+    "mean_entropy": 0.324579770384488,
+    "frac_large_sets": 0.8804347826086957
+  },
+  "7574": {
+    "n_dets": 91,
+    "mean_conf": 0.45616512852055685,
+    "max_conf": 0.9899320602416992,
+    "mean_set_size": 76.24175824175825,
+    "max_set_size": 91,
+    "mean_entropy": 0.3984586978024179,
+    "frac_large_sets": 0.8571428571428571
+  },
+  "7784": {
+    "n_dets": 1,
+    "mean_conf": 0.9928927421569824,
+    "max_conf": 0.9928927421569824,
+    "mean_set_size": 1.0,
+    "max_set_size": 1,
+    "mean_entropy": 0.00867507979273796,
+    "frac_large_sets": 0.0
+  },
+  "7795": {
+    "n_dets": 7,
+    "mean_conf": 0.5253474834774222,
+    "max_conf": 0.977501392364502,
+    "mean_set_size": 65.28571428571429,
+    "max_set_size": 91,
+    "mean_entropy": 0.1809838619083166,
+    "frac_large_sets": 0.7142857142857143
+  },
+  "7816": {
+    "n_dets": 31,
+    "mean_conf": 0.40523753543534585,
+    "max_conf": 0.9994340538978577,
+    "mean_set_size": 61.96774193548387,
+    "max_set_size": 91,
+    "mean_entropy": 0.1554722460362339,
+    "frac_large_sets": 0.6774193548387096
+  },
+  "7818": {
+    "n_dets": 28,
+    "mean_conf": 0.44064886402338743,
+    "max_conf": 0.9974961876869202,
+    "mean_set_size": 71.75,
+    "max_set_size": 91,
+    "mean_entropy": 0.26455315578329774,
+    "frac_large_sets": 0.7857142857142857
+  },
+  "7888": {
+    "n_dets": 3,
+    "mean_conf": 0.8972653349240621,
+    "max_conf": 0.9987450838088989,
+    "mean_set_size": 31.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.09324919859257837,
+    "frac_large_sets": 0.3333333333333333
+  },
+  "7977": {
+    "n_dets": 33,
+    "mean_conf": 0.2523926163487362,
+    "max_conf": 0.9997747540473938,
+    "mean_set_size": 80.0909090909091,
+    "max_set_size": 91,
+    "mean_entropy": 0.2739889464812057,
+    "frac_large_sets": 0.8787878787878788
+  },
+  "7991": {
+    "n_dets": 64,
+    "mean_conf": 0.39550114603480324,
+    "max_conf": 0.9869185090065002,
+    "mean_set_size": 83.984375,
+    "max_set_size": 91,
+    "mean_entropy": 0.2937676512519829,
+    "frac_large_sets": 0.921875
+  },
+  "8021": {
+    "n_dets": 6,
+    "mean_conf": 0.6983750655005375,
+    "max_conf": 0.9996083378791809,
+    "mean_set_size": 31.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.0768092561144537,
+    "frac_large_sets": 0.3333333333333333
+  },
+  "8211": {
+    "n_dets": 27,
+    "mean_conf": 0.499532720832913,
+    "max_conf": 0.9995465874671936,
+    "mean_set_size": 84.33333333333333,
+    "max_set_size": 91,
+    "mean_entropy": 0.2651808068320086,
+    "frac_large_sets": 0.9259259259259259
+  },
+  "8277": {
+    "n_dets": 60,
+    "mean_conf": 0.29615815058350564,
+    "max_conf": 0.9680643677711487,
+    "mean_set_size": 86.5,
+    "max_set_size": 91,
+    "mean_entropy": 0.24681880474090576,
+    "frac_large_sets": 0.95
+  },
+  "8532": {
+    "n_dets": 2,
+    "mean_conf": 0.999534010887146,
+    "max_conf": 0.9996726512908936,
+    "mean_set_size": 1.0,
+    "max_set_size": 1,
+    "mean_entropy": 0.0014930923352949321,
+    "frac_large_sets": 0.0
+  },
+  "8629": {
+    "n_dets": 23,
+    "mean_conf": 0.49175699881237483,
+    "max_conf": 0.9974379539489746,
+    "mean_set_size": 63.608695652173914,
+    "max_set_size": 91,
+    "mean_entropy": 0.24361431748484788,
+    "frac_large_sets": 0.6956521739130435
+  },
+  "8690": {
+    "n_dets": 22,
+    "mean_conf": 0.413836558772759,
+    "max_conf": 0.9990321397781372,
+    "mean_set_size": 74.63636363636364,
+    "max_set_size": 91,
+    "mean_entropy": 0.20282380063277247,
+    "frac_large_sets": 0.8181818181818182
+  },
+  "8762": {
+    "n_dets": 19,
+    "mean_conf": 0.4522151141182372,
+    "max_conf": 0.9985151886940002,
+    "mean_set_size": 62.578947368421055,
+    "max_set_size": 91,
+    "mean_entropy": 0.1764953694012212,
+    "frac_large_sets": 0.6842105263157895
+  },
+  "8844": {
+    "n_dets": 57,
+    "mean_conf": 0.32647801517394553,
+    "max_conf": 0.9978025555610657,
+    "mean_set_size": 81.52631578947368,
+    "max_set_size": 91,
+    "mean_entropy": 0.25620637197668356,
+    "frac_large_sets": 0.8947368421052632
+  },
+  "8899": {
+    "n_dets": 4,
+    "mean_conf": 0.5246812803670764,
+    "max_conf": 0.9991839528083801,
+    "mean_set_size": 46.0,
+    "max_set_size": 91,
+    "mean_entropy": 0.08466279983986169,
+    "frac_large_sets": 0.5
+  },
+  "9378": {
+    "n_dets": 29,
+    "mean_conf": 0.5544127306804575,
+    "max_conf": 0.9993589520454407,
+    "mean_set_size": 63.06896551724138,
+    "max_set_size": 91,
+    "mean_entropy": 0.18239262121215719,
+    "frac_large_sets": 0.6896551724137931
+  },
+  "9400": {
+    "n_dets": 71,
+    "mean_conf": 0.5138433743005907,
+    "max_conf": 0.9989963173866272,
+    "mean_set_size": 60.57746478873239,
+    "max_set_size": 91,
+    "mean_entropy": 0.3036523391869785,
+    "frac_large_sets": 0.6619718309859155
+  },
+  "9448": {
+    "n_dets": 7,
+    "mean_conf": 0.5312552154064178,
+    "max_conf": 0.9991573095321655,
+    "mean_set_size": 65.28571428571429,
+    "max_set_size": 91,
+    "mean_entropy": 0.28980500710063745,
+    "frac_large_sets": 0.7142857142857143
+  },
+  "9483": {
+    "n_dets": 23,
+    "mean_conf": 0.4928726565254771,
+    "max_conf": 0.9996509552001953,
+    "mean_set_size": 55.78260869565217,
+    "max_set_size": 91,
+    "mean_entropy": 0.1562937330910126,
+    "frac_large_sets": 0.6086956521739131
+  },
+  "9590": {
+    "n_dets": 91,
+    "mean_conf": 0.4864196558738803,
+    "max_conf": 0.9996405839920044,
+    "mean_set_size": 70.34065934065934,
+    "max_set_size": 91,
+    "mean_entropy": 0.43908323419272677,
+    "frac_large_sets": 0.7802197802197802
+  },
+  "9769": {
+    "n_dets": 11,
+    "mean_conf": 0.4113124145025557,
+    "max_conf": 0.9962930083274841,
+    "mean_set_size": 66.45454545454545,
+    "max_set_size": 91,
+    "mean_entropy": 0.23480177886614745,
+    "frac_large_sets": 0.7272727272727273
+  },
+  "9772": {
+    "n_dets": 29,
+    "mean_conf": 0.3045011521156492,
+    "max_conf": 0.9991360306739807,
+    "mean_set_size": 78.58620689655173,
+    "max_set_size": 91,
+    "mean_entropy": 0.23033150758770904,
+    "frac_large_sets": 0.8620689655172413
+  },
+  "9891": {
+    "n_dets": 59,
+    "mean_conf": 0.3774495676664983,
+    "max_conf": 0.9997832179069519,
+    "mean_set_size": 72.69491525423729,
+    "max_set_size": 91,
+    "mean_entropy": 0.29538183778591487,
+    "frac_large_sets": 0.7966101694915254
+  }
+}

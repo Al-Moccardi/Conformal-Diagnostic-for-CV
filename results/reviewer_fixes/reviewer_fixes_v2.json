@@ -1,0 +1,121 @@
+{
+  "squeezing": {
+    "yolov8x/fgsm": {
+      "CP Composite": 0.6452499999999999,
+      "Feat. Squeeze": 0.5463,
+      "Det Count": 0.6242
+    },
+    "yolov8x/pgd-20": {
+      "CP Composite": 0.9377500000000001,
+      "Feat. Squeeze": 0.8923,
+      "Det Count": 0.9256
+    },
+    "yolov8x/pgd-50": {
+      "CP Composite": 0.8871960603262542,
+      "Feat. Squeeze": 0.8248691905201602,
+      "Det Count": 0.8835026161895967
+    },
+    "yolov8x/dag": {
+      "CP Composite": 0.9690728305785125,
+      "Feat. Squeeze": 0.9362086776859504,
+      "Det Count": 0.9597107438016529
+    },
+    "yolov8x/tog-v": {
+      "CP Composite": 0.9661599333610995,
+      "Feat. Squeeze": 0.9241982507288629,
+      "Det Count": 0.9630362349021242
+    },
+    "yolov11x/fgsm": {
+      "CP Composite": 0.661,
+      "Feat. Squeeze": 0.5688000000000001,
+      "Det Count": 0.66815
+    },
+    "yolov11x/pgd-20": {
+      "CP Composite": 0.8944268888250503,
+      "Feat. Squeeze": 0.8187302499281814,
+      "Det Count": 0.8871014076414823
+    },
+    "yolov11x/pgd-50": {
+      "CP Composite": 0.818888888888889,
+      "Feat. Squeeze": 0.6855555555555556,
+      "Det Count": 0.8166666666666667
+    },
+    "yolov11x/dag": {
+      "CP Composite": 0.8808163265306123,
+      "Feat. Squeeze": 0.7771428571428571,
+      "Det Count": 0.8804081632653061
+    },
+    "yolov11x/tog-v": {
+      "CP Composite": 0.921657986111111,
+      "Feat. Squeeze": 0.8732638888888888,
+      "Det Count": 0.9296875
+    },
+    "detr-resnet101/fgsm": {
+      "CP Composite": 0.56915,
+      "Feat. Squeeze": 0.5345,
+      "Det Count": 0.5213
+    },
+    "detr-resnet101/pgd-20": {
+      "CP Composite": 0.5347500000000001,
+      "Feat. Squeeze": 0.5042,
+      "Det Count": 0.5017
+    }
+  },
+  "coverage_audit": {
+    "yolov8x/clean": {
+      "loose": 0.9238231098430814,
+      "strict": 0.8864479315263909,
+      "inflation": 0.03737517831669046
+    },
+    "yolov8x/fgsm": {
+      "loose": 0.6162464985994398,
+      "strict": 0.5182072829131653,
+      "inflation": 0.0980392156862745
+    },
+    "yolov8x/pgd-20": {
+      "loose": 0.20728291316526612,
+      "strict": 0.15966386554621848,
+      "inflation": 0.047619047619047644
+    },
+    "yolov8x/pgd-50": {
+      "loose": 0.2773333333333333,
+      "strict": 0.24533333333333332,
+      "inflation": 0.032
+    },
+    "yolov11x/clean": {
+      "loose": 0.9315263908701854,
+      "strict": 0.8995720399429387,
+      "inflation": 0.031954350927246744
+    },
+    "yolov11x/fgsm": {
+      "loose": 0.6596638655462185,
+      "strict": 0.5798319327731093,
+      "inflation": 0.07983193277310918
+    },
+    "yolov11x/pgd-20": {
+      "loose": 0.2605633802816901,
+      "strict": 0.2323943661971831,
+      "inflation": 0.028169014084507032
+    },
+    "yolov11x/pgd-50": {
+      "loose": 0.46994535519125685,
+      "strict": 0.43169398907103823,
+      "inflation": 0.03825136612021862
+    },
+    "detr-resnet101/clean": {
+      "loose": 0.8597491448118586,
+      "strict": 0.8241163055872291,
+      "inflation": 0.03563283922462945
+    },
+    "detr-resnet101/fgsm": {
+      "loose": 0.7016806722689075,
+      "strict": 0.6260504201680672,
+      "inflation": 0.07563025210084029
+    },
+    "detr-resnet101/pgd-20": {
+      "loose": 0.8123249299719888,
+      "strict": 0.7675070028011205,
+      "inflation": 0.0448179271708683
+    }
+  }
+}

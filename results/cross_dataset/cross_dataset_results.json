@@ -1,0 +1,44 @@
+{
+  "yolov8x": {
+    "coco_coverage": {
+      "coverage": 0.8817959001782532,
+      "total_gt": 17952,
+      "covered_gt": 15830,
+      "n_kept": 181561,
+      "n_filtered": 0,
+      "mean_margin_px": 3.803256091098218
+    },
+    "voc_coverage": {
+      "coverage": 0.9524822695035461,
+      "total_gt": 1410,
+      "covered_gt": 1343,
+      "n_kept": 5541,
+      "n_filtered": 0,
+      "mean_margin_px": 9.007825167699755
+    },
+    "coverage_gap": -0.07068636932529293,
+    "n_coco_test": 2499,
+    "n_voc_test": 500
+  },
+  "rtdetr-l": {
+    "coco_coverage": {
+      "coverage": 0.9007996421182128,
+      "total_gt": 17883,
+      "covered_gt": 16109,
+      "n_kept": 749999,
+      "n_filtered": 0,
+      "mean_margin_px": 2.4897553602102604
+    },
+    "voc_coverage": {
+      "coverage": 0.9815733522324592,
+      "total_gt": 1411,
+      "covered_gt": 1385,
+      "n_kept": 63926,
+      "n_filtered": 0,
+      "mean_margin_px": 2.6597918442723847
+    },
+    "coverage_gap": -0.08077371011424639,
+    "n_coco_test": 2500,
+    "n_voc_test": 500
+  }
+}

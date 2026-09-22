@@ -1,0 +1,358 @@
+{
+  "stability": {
+    "CP Composite (ours)": {
+      "mean": 0.807176576218461,
+      "std": 0.15266464913641373,
+      "min": 0.5347500000000001,
+      "max": 0.9690728305785125,
+      "range": 0.4343228305785124,
+      "cv": 0.18913414193909325
+    },
+    "Det Count (>0.3)": {
+      "mean": 0.791604537544954,
+      "std": 0.1703376968266033,
+      "min": 0.50535,
+      "max": 0.9667484504132232,
+      "range": 0.46139845041322325,
+      "cv": 0.2151802936285343
+    },
+    "Det Count (>0.5)": {
+      "mean": 0.796755277705569,
+      "std": 0.16350469913758972,
+      "min": 0.5017,
+      "max": 0.9630362349021242,
+      "range": 0.46133623490212416,
+      "cv": 0.2052131987232482
+    },
+    "Max Confidence": {
+      "mean": 0.7808580983826398,
+      "std": 0.15100136565909872,
+      "min": 0.5003,
+      "max": 0.9465392561983472,
+      "range": 0.44623925619834726,
+      "cv": 0.1933787534148161
+    },
+    "Mean Conf (>0.1)": {
+      "mean": 0.6891763970214742,
+      "std": 0.12139942356435732,
+      "min": 0.5214,
+      "max": 0.8427169421487604,
+      "range": 0.3213169421487604,
+      "cv": 0.17615145279064834
+    },
+    "Mean Conf (>0.3)": {
+      "mean": 0.6920807264718541,
+      "std": 0.12855072929903943,
+      "min": 0.5009,
+      "max": 0.8604080578512396,
+      "range": 0.3595080578512396,
+      "cv": 0.1857452814130165
+    }
+  },
+  "precision_thresholds": {
+    "yolov8x/fgsm": {
+      "clean": {
+        "0.0": {
+          "precision": 0.08530290681879923,
+          "n_detections": 7362
+        },
+        "0.1": {
+          "precision": 0.5234619395203337,
+          "n_detections": 959
+        },
+        "0.3": {
+          "precision": 0.7787610619469026,
+          "n_detections": 565
+        },
+        "0.5": {
+          "precision": 0.8688524590163934,
+          "n_detections": 427
+        }
+      },
+      "adv": {
+        "0.0": {
+          "precision": 0.11321909424724602,
+          "n_detections": 3268
+        },
+        "0.1": {
+          "precision": 0.37333333333333335,
+          "n_detections": 750
+        },
+        "0.3": {
+          "precision": 0.5566037735849056,
+          "n_detections": 424
+        },
+        "0.5": {
+          "precision": 0.6858108108108109,
+          "n_detections": 296
+        }
+      }
+    },
+    "yolov8x/pgd-20": {
+      "clean": {
+        "0.0": {
+          "precision": 0.08530290681879923,
+          "n_detections": 7362
+        },
+        "0.1": {
+          "precision": 0.5234619395203337,
+          "n_detections": 959
+        },
+        "0.3": {
+          "precision": 0.7787610619469026,
+          "n_detections": 565
+        },
+        "0.5": {
+          "precision": 0.8688524590163934,
+          "n_detections": 427
+        }
+      },
+      "adv": {
+        "0.0": {
+          "precision": 0.08796296296296297,
+          "n_detections": 1296
+        },
+        "0.1": {
+          "precision": 0.24092409240924093,
+          "n_detections": 303
+        },
+        "0.3": {
+          "precision": 0.452991452991453,
+          "n_detections": 117
+        },
+        "0.5": {
+          "precision": 0.6027397260273972,
+          "n_detections": 73
+        }
+      }
+    },
+    "yolov8x/pgd-50": {
+      "clean": {
+        "0.0": {
+          "precision": 0.08198757763975155,
+          "n_detections": 4025
+        },
+        "0.1": {
+          "precision": 0.4930966469428008,
+          "n_detections": 507
+        },
+        "0.3": {
+          "precision": 0.7525773195876289,
+          "n_detections": 291
+        },
+        "0.5": {
+          "precision": 0.8502415458937198,
+          "n_detections": 207
+        }
+      },
+      "adv": {
+        "0.0": {
+          "precision": 0.2621082621082621,
+          "n_detections": 351
+        },
+        "0.1": {
+          "precision": 0.5945945945945946,
+          "n_detections": 111
+        },
+        "0.3": {
+          "precision": 0.8032786885245902,
+          "n_detections": 61
+        },
+        "0.5": {
+          "precision": 0.8666666666666667,
+          "n_detections": 45
+        }
+      }
+    },
+    "yolov11x/fgsm": {
+      "clean": {
+        "0.0": {
+          "precision": 0.08987469393633876,
+          "n_detections": 6943
+        },
+        "0.1": {
+          "precision": 0.5560488346281909,
+          "n_detections": 901
+        },
+        "0.3": {
+          "precision": 0.7888086642599278,
+          "n_detections": 554
+        },
+        "0.5": {
+          "precision": 0.8636363636363636,
+          "n_detections": 418
+        }
+      },
+      "adv": {
+        "0.0": {
+          "precision": 0.16700282371924163,
+          "n_detections": 2479
+        },
+        "0.1": {
+          "precision": 0.4915254237288136,
+          "n_detections": 649
+        },
+        "0.3": {
+          "precision": 0.7247956403269755,
+          "n_detections": 367
+        },
+        "0.5": {
+          "precision": 0.8327272727272728,
+          "n_detections": 275
+        }
+      }
+    },
+    "yolov11x/pgd-20": {
+      "clean": {
+        "0.0": {
+          "precision": 0.09214426877470355,
+          "n_detections": 4048
+        },
+        "0.1": {
+          "precision": 0.5814393939393939,
+          "n_detections": 528
+        },
+        "0.3": {
+          "precision": 0.8112094395280236,
+          "n_detections": 339
+        },
+        "0.5": {
+          "precision": 0.873015873015873,
+          "n_detections": 252
+        }
+      },
+      "adv": {
+        "0.0": {
+          "precision": 0.2391304347826087,
+          "n_detections": 414
+        },
+        "0.1": {
+          "precision": 0.5428571428571428,
+          "n_detections": 140
+        },
+        "0.3": {
+          "precision": 0.8051948051948052,
+          "n_detections": 77
+        },
+        "0.5": {
+          "precision": 0.8448275862068966,
+          "n_detections": 58
+        }
+      }
+    },
+    "yolov11x/pgd-50": {
+      "clean": {
+        "0.0": {
+          "precision": 0.08856682769726248,
+          "n_detections": 1863
+        },
+        "0.1": {
+          "precision": 0.5637065637065637,
+          "n_detections": 259
+        },
+        "0.3": {
+          "precision": 0.7964071856287425,
+          "n_detections": 167
+        },
+        "0.5": {
+          "precision": 0.8617886178861789,
+          "n_detections": 123
+        }
+      },
+      "adv": {
+        "0.0": {
+          "precision": 0.3333333333333333,
+          "n_detections": 237
+        },
+        "0.1": {
+          "precision": 0.6262626262626263,
+          "n_detections": 99
+        },
+        "0.3": {
+          "precision": 0.8307692307692308,
+          "n_detections": 65
+        },
+        "0.5": {
+          "precision": 0.8571428571428571,
+          "n_detections": 49
+        }
+      }
+    },
+    "detr-resnet101/fgsm": {
+      "clean": {
+        "0.0": {
+          "precision": 0.0717557251908397,
+          "n_detections": 7860
+        },
+        "0.1": {
+          "precision": 0.23023457862728064,
+          "n_detections": 2302
+        },
+        "0.3": {
+          "precision": 0.3528169014084507,
+          "n_detections": 1420
+        },
+        "0.5": {
+          "precision": 0.44087992667277726,
+          "n_detections": 1091
+        }
+      },
+      "adv": {
+        "0.0": {
+          "precision": 0.07818786076613608,
+          "n_detections": 5717
+        },
+        "0.1": {
+          "precision": 0.21164846593863754,
+          "n_detections": 1923
+        },
+        "0.3": {
+          "precision": 0.3359442993907746,
+          "n_detections": 1149
+        },
+        "0.5": {
+          "precision": 0.41638225255972694,
+          "n_detections": 879
+        }
+      }
+    },
+    "detr-resnet101/pgd-20": {
+      "clean": {
+        "0.0": {
+          "precision": 0.0717557251908397,
+          "n_detections": 7860
+        },
+        "0.1": {
+          "precision": 0.23023457862728064,
+          "n_detections": 2302
+        },
+        "0.3": {
+          "precision": 0.3528169014084507,
+          "n_detections": 1420
+        },
+        "0.5": {
+          "precision": 0.44087992667277726,
+          "n_detections": 1091
+        }
+      },
+      "adv": {
+        "0.0": {
+          "precision": 0.09799713876967096,
+          "n_detections": 5592
+        },
+        "0.1": {
+          "precision": 0.22212581344902385,
+          "n_detections": 2305
+        },
+        "0.3": {
+          "precision": 0.351878612716763,
+          "n_detections": 1384
+        },
+        "0.5": {
+          "precision": 0.43808630393996245,
+          "n_detections": 1066
+        }
+      }
+    }
+  }
+}

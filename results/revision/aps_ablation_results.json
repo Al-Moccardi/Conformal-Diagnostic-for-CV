@@ -1,0 +1,19 @@
+{
+  "n_images": 100,
+  "attack": "pgd-20",
+  "clean_mean_set_size": 61.3338853088437,
+  "adv_mean_set_size": 58.363095238095234,
+  "clean_mean_entropy": 0.21050910775375814,
+  "adv_mean_entropy": 0.2840428997589209,
+  "auroc_results": {
+    "n_dets only": 0.70645,
+    "n_dets + mean_conf": 0.8157000000000001,
+    "n_dets + mean_conf + max_conf (OUTPUT BASE)": 0.8954,
+    "  + mean_set_size (APS)": 0.89,
+    "  + max_set_size (APS)": 0.8944000000000001,
+    "  + mean_entropy (APS)": 0.8849999999999999,
+    "  + frac_large_sets (APS)": 0.89,
+    "  + ALL APS signals": 0.873,
+    "APS-only (no output-level)": 0.8448
+  }
+}

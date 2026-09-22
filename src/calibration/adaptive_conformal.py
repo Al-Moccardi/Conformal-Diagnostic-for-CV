@@ -83,16 +83,23 @@ class AdaptiveConformalCalibrator:
         cal_preds: list of {image_id, category_id, score, bbox=[x,y,w,h]}
         gt_by_image: {image_id: [list of GT annotations]}
         """
-        matched = self._match_all(cal_preds, gt_by_image, iou_threshold)
+        all_matched = self._match_all(cal_preds, gt_by_image, iou_threshold)
+        # Eq. (11) of the paper: the calibration set contains the matched
+        # TRUE POSITIVES only (correct class, IoU >= threshold).  Unmatched
+        # raw predictions have no ground truth and therefore no
+        # nonconformity score; including them at score 1.0 pinned the
+        # (1-alpha)-quantile at 1.0 and collapsed the threshold to 0
+        # (bug in the submitted version, corrected in revision).
+        matched = [m for m in all_matched if m["correct"]]
         if not matched:
-            print("  [WARN] No matched predictions for calibration")
+            print("  [WARN] No matched true positives for calibration")
             return self
 
-        # --- Step 1: Confidence threshold (APS-style) ---
+        # --- Step 1: Confidence threshold (LAC/THR score 1 - s) ---
         confs = np.array([m["conf"] for m in matched])
         correct = np.array([m["correct"] for m in matched])
-        # Nonconformity score for classification
-        cls_scores = np.where(correct, 1.0 - confs, 1.0)
+        # Nonconformity score for classification (true positives only)
+        cls_scores = 1.0 - confs
         n = len(cls_scores)
         q_level = min(np.ceil((n + 1) * (1 - self.alpha)) / n, 1.0)
         self.conf_threshold = max(0.0, 1.0 - np.quantile(cls_scores, q_level))
@@ -144,6 +151,7 @@ class AdaptiveConformalCalibrator:
 
         # --- Stats ---
         self.cal_stats = {
+            "n_raw": len(all_matched),
             "n_matched": len(matched),
             "n_correct": int(correct.sum()),
             "conf_threshold": float(self.conf_threshold),

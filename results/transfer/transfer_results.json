@@ -1,0 +1,123 @@
+{
+  "yolov8x->yolov11x_fgsm": {
+    "source": "yolov8x",
+    "target": "yolov11x",
+    "attack": "fgsm",
+    "n_adv_images": 100,
+    "n_predictions": 2382,
+    "mean_confidence": 0.16241302449681572,
+    "clean_mean_confidence": 0.08092049174956838,
+    "confidence_drop": -0.08149253274724734,
+    "auroc": 0.7504
+  },
+  "yolov8x->detr-resnet101_fgsm": {
+    "source": "yolov8x",
+    "target": "detr-resnet101",
+    "attack": "fgsm",
+    "n_adv_images": 100,
+    "n_predictions": 4927,
+    "mean_confidence": 0.23463416453817626,
+    "clean_mean_confidence": 0.16891443235279396,
+    "confidence_drop": -0.0657197321853823,
+    "auroc": 0.5882000000000001
+  },
+  "yolov8x->yolov11x_pgd-20": {
+    "source": "yolov8x",
+    "target": "yolov11x",
+    "attack": "pgd-20",
+    "n_adv_images": 100,
+    "n_predictions": 2172,
+    "mean_confidence": 0.17685948696431686,
+    "clean_mean_confidence": 0.08092049174956838,
+    "confidence_drop": -0.09593899521474848,
+    "auroc": 0.7708
+  },
+  "yolov8x->detr-resnet101_pgd-20": {
+    "source": "yolov8x",
+    "target": "detr-resnet101",
+    "attack": "pgd-20",
+    "n_adv_images": 100,
+    "n_predictions": 4939,
+    "mean_confidence": 0.24052492054705407,
+    "clean_mean_confidence": 0.16891443235279396,
+    "confidence_drop": -0.07161048819426011,
+    "auroc": 0.6091500000000001
+  },
+  "yolov8x->yolov11x_dag": {
+    "source": "yolov8x",
+    "target": "yolov11x",
+    "attack": "dag",
+    "n_adv_images": 100,
+    "n_predictions": 1993,
+    "mean_confidence": 0.17448117909836175,
+    "clean_mean_confidence": 0.08092049174956838,
+    "confidence_drop": -0.09356068734879337,
+    "auroc": 0.7465999999999999
+  },
+  "yolov8x->detr-resnet101_dag": {
+    "source": "yolov8x",
+    "target": "detr-resnet101",
+    "attack": "dag",
+    "n_adv_images": 100,
+    "n_predictions": 4859,
+    "mean_confidence": 0.23730931138912267,
+    "clean_mean_confidence": 0.16891443235279396,
+    "confidence_drop": -0.06839487903632871,
+    "auroc": 0.5995
+  },
+  "yolov11x->detr-resnet101_fgsm": {
+    "source": "yolov11x",
+    "target": "detr-resnet101",
+    "attack": "fgsm",
+    "n_adv_images": 100,
+    "n_predictions": 4927,
+    "mean_confidence": 0.23459433153122725,
+    "clean_mean_confidence": 0.16891443235279396,
+    "confidence_drop": -0.06567989917843328,
+    "auroc": 0.5924499999999999
+  },
+  "yolov11x->detr-resnet101_pgd-20": {
+    "source": "yolov11x",
+    "target": "detr-resnet101",
+    "attack": "pgd-20",
+    "n_adv_images": 100,
+    "n_predictions": 4858,
+    "mean_confidence": 0.2432033011500757,
+    "clean_mean_confidence": 0.16891443235279396,
+    "confidence_drop": -0.07428886879728175,
+    "auroc": 0.5974999999999999
+  },
+  "yolov11x->detr-resnet101_dag": {
+    "source": "yolov11x",
+    "target": "detr-resnet101",
+    "attack": "dag",
+    "n_adv_images": 100,
+    "n_predictions": 4854,
+    "mean_confidence": 0.24291340002255168,
+    "clean_mean_confidence": 0.16891443235279396,
+    "confidence_drop": -0.07399896766975772,
+    "auroc": 0.60205
+  },
+  "detr-resnet101->yolov11x_fgsm": {
+    "source": "detr-resnet101",
+    "target": "yolov11x",
+    "attack": "fgsm",
+    "n_adv_images": 100,
+    "n_predictions": 2385,
+    "mean_confidence": 0.18981646190922652,
+    "clean_mean_confidence": 0.08092049174956838,
+    "confidence_drop": -0.10889597015965814,
+    "auroc": 0.80115
+  },
+  "detr-resnet101->yolov11x_pgd-20": {
+    "source": "detr-resnet101",
+    "target": "yolov11x",
+    "attack": "pgd-20",
+    "n_adv_images": 100,
+    "n_predictions": 2509,
+    "mean_confidence": 0.19321800730291022,
+    "clean_mean_confidence": 0.08092049174956838,
+    "confidence_drop": -0.11229751555334185,
+    "auroc": 0.8084
+  }
+}

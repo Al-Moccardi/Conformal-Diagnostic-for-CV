@@ -1,0 +1,946 @@
+{
+  "detr-resnet101": {
+    "ablation": {
+      "A0: No CP (conf>0.5)": {
+        "label": "A0: No CP\n(conf>0.5)",
+        "coverage": 0.7093515803193222,
+        "mean_margin_px": 0.0,
+        "median_margin_px": 0.0,
+        "mean_set_size": 1.0,
+        "n_kept": 27718,
+        "n_filtered": 157612,
+        "filter_rate": 0.8504397561107214,
+        "ece": 0.33163716733021287,
+        "size_coverage": {
+          "S": 0.523993288590604,
+          "M": 0.7662070058646379,
+          "L": 0.8307567127746135
+        },
+        "conf_threshold": 0.5,
+        "total_gt": 18414,
+        "covered_gt": 13062
+      },
+      "A1: Threshold only (APS)": {
+        "label": "A1: Threshold\nonly (APS)",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 2.0,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.7315059623374522,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      },
+      "A2: + Fixed margins": {
+        "label": "A2: + Fixed\nmargins",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 2.0,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.7315059623374522,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      },
+      "A3: + Size normalized": {
+        "label": "A3: + Size\nnormalized",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 11.996560732776603,
+        "median_margin_px": 6.375106239318848,
+        "mean_set_size": 2.7315059623374522,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      },
+      "A4: + Conf. bins (CQR)": {
+        "label": "A4: + Conf.\nbins (CQR)",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 4.535603013008896,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.7315059623374522,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      },
+      "A5: Full (ours)": {
+        "label": "A5: Full\n(ours)",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 4.535603013008896,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.7315059623374522,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      }
+    },
+    "baselines": {
+      "Ours (Adaptive CP)": {
+        "label": "Ours (Adaptive CP)",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 4.535603013008896,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.7315059623374522,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      },
+      "Temp. Scaling (Guo 2017)": {
+        "label": "Temp. Scaling\n(Guo 2017)",
+        "coverage": 0.5556641685673944,
+        "mean_margin_px": 0.0,
+        "median_margin_px": 0.0,
+        "mean_set_size": 1.0,
+        "n_kept": 12801,
+        "n_filtered": 172529,
+        "filter_rate": 0.9309286138239896,
+        "ece": 0.17833281456888703,
+        "size_coverage": {
+          "S": 0.3352348993288591,
+          "M": 0.6008876208590902,
+          "L": 0.723026851098454
+        },
+        "conf_threshold": 0.0009765625,
+        "total_gt": 18414,
+        "covered_gt": 10232
+      },
+      "Fixed BoxStd (vanilla CP)": {
+        "label": "Fixed BoxStd\n(vanilla CP)",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 10.0,
+        "median_margin_px": 10.0,
+        "mean_set_size": 1.0,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      },
+      "Two-Step CP (Timans 2024)": {
+        "label": "Two-Step CP\n(Timans 2024)",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 31.07804407616897,
+        "median_margin_px": 22.85994337115461,
+        "mean_set_size": 1.0,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      }
+    },
+    "cross_dataset": {
+      "COCO (in-dist.)": {
+        "label": "COCO (in-dist)",
+        "coverage": 0.8038992071250136,
+        "mean_margin_px": 4.535603013008895,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.7315059623374522,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.24197078490921284,
+        "size_coverage": {
+          "S": 0.6283557046979866,
+          "M": 0.861309240767158,
+          "L": 0.9152156224572824
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 14803
+      },
+      "Simulated shift (noise + conf)": {
+        "label": "Simulated shift",
+        "coverage": 0.7123384381448897,
+        "mean_margin_px": 3.816400631957994,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.7733988021367293,
+        "n_kept": 185330,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.21743613880176177,
+        "size_coverage": {
+          "S": 0.38422818791946306,
+          "M": 0.8262799175780631,
+          "L": 0.9135882831570382
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18414,
+        "covered_gt": 13117
+      }
+    }
+  },
+  "rtdetr-l": {
+    "ablation": {
+      "A0: No CP (conf>0.5)": {
+        "label": "A0: No CP\n(conf>0.5)",
+        "coverage": 0.6146060504389643,
+        "mean_margin_px": 0.0,
+        "median_margin_px": 0.0,
+        "mean_set_size": 1.0,
+        "n_kept": 13623,
+        "n_filtered": 736376,
+        "filter_rate": 0.981835975781301,
+        "ece": 0.033500036693289624,
+        "size_coverage": {
+          "S": 0.3382799928482031,
+          "M": 0.6637576156759427,
+          "L": 0.8151841724304327
+        },
+        "conf_threshold": 0.5,
+        "total_gt": 17883,
+        "covered_gt": 10991
+      },
+      "A1: Threshold only (APS)": {
+        "label": "A1: Threshold\nonly (APS)",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 2.0,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.9693359591146122,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      },
+      "A2: + Fixed margins": {
+        "label": "A2: + Fixed\nmargins",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 2.0,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.9693359591146122,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      },
+      "A3: + Size normalized": {
+        "label": "A3: + Size\nnormalized",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 9.634166026599472,
+        "median_margin_px": 4.096026802062989,
+        "mean_set_size": 2.9693359591146122,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      },
+      "A4: + Conf. bins (CQR)": {
+        "label": "A4: + Conf.\nbins (CQR)",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 2.4897553602102604,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.9693359591146122,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      },
+      "A5: Full (ours)": {
+        "label": "A5: Full\n(ours)",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 2.4897553602102604,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.9693359591146122,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      }
+    },
+    "baselines": {
+      "Ours (Adaptive CP)": {
+        "label": "Ours (Adaptive CP)",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 2.4897553602102604,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.9693359591146122,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      },
+      "Temp. Scaling (Guo 2017)": {
+        "label": "Temp. Scaling\n(Guo 2017)",
+        "coverage": 0.47575910082200973,
+        "mean_margin_px": 0.0,
+        "median_margin_px": 0.0,
+        "mean_set_size": 1.0,
+        "n_kept": 9270,
+        "n_filtered": 740729,
+        "filter_rate": 0.9876399835199781,
+        "ece": 0.0432051359514074,
+        "size_coverage": {
+          "S": 0.1782585374575362,
+          "M": 0.48740326033261977,
+          "L": 0.7320250924883385
+        },
+        "conf_threshold": 0.25,
+        "total_gt": 17883,
+        "covered_gt": 8508
+      },
+      "Fixed BoxStd (vanilla CP)": {
+        "label": "Fixed BoxStd\n(vanilla CP)",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 10.0,
+        "median_margin_px": 10.0,
+        "mean_set_size": 1.0,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      },
+      "Two-Step CP (Timans 2024)": {
+        "label": "Two-Step CP\n(Timans 2024)",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 27.203099806449053,
+        "median_margin_px": 20.14698109777981,
+        "mean_set_size": 1.0,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      }
+    },
+    "cross_dataset": {
+      "COCO (in-dist.)": {
+        "label": "COCO (in-dist)",
+        "coverage": 0.9007996421182128,
+        "mean_margin_px": 2.489755360210261,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.9693359591146122,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.033620939797207386,
+        "size_coverage": {
+          "S": 0.8104773824423387,
+          "M": 0.9290301333772435,
+          "L": 0.9544796525655461
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 16109
+      },
+      "Simulated shift (noise + conf)": {
+        "label": "Simulated shift",
+        "coverage": 0.7920371302354191,
+        "mean_margin_px": 2.5208027249547817,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.9767546356728474,
+        "n_kept": 749999,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.03295389631211596,
+        "size_coverage": {
+          "S": 0.4891829072054354,
+          "M": 0.9051539601514902,
+          "L": 0.953997104712884
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17883,
+        "covered_gt": 14164
+      }
+    }
+  },
+  "yolov11x": {
+    "ablation": {
+      "A0: No CP (conf>0.5)": {
+        "label": "A0: No CP\n(conf>0.5)",
+        "coverage": 0.5458023732948875,
+        "mean_margin_px": 0.0,
+        "median_margin_px": 0.0,
+        "mean_set_size": 1.0,
+        "n_kept": 11373,
+        "n_filtered": 156578,
+        "filter_rate": 0.932283820876327,
+        "ece": 0.07329303440229668,
+        "size_coverage": {
+          "S": 0.24316109422492402,
+          "M": 0.5780101290638785,
+          "L": 0.7824367088607594
+        },
+        "conf_threshold": 0.5,
+        "total_gt": 18034,
+        "covered_gt": 9843
+      },
+      "A1: Threshold only (APS)": {
+        "label": "A1: Threshold\nonly (APS)",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 2.0,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8822930497585606,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      },
+      "A2: + Fixed margins": {
+        "label": "A2: + Fixed\nmargins",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 2.0,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8822930497585606,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      },
+      "A3: + Size normalized": {
+        "label": "A3: + Size\nnormalized",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 6.861265509470304,
+        "median_margin_px": 3.8795730590820314,
+        "mean_set_size": 2.8822930497585606,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      },
+      "A4: + Conf. bins (CQR)": {
+        "label": "A4: + Conf.\nbins (CQR)",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 3.9196785752107566,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8822930497585606,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      },
+      "A5: Full (ours)": {
+        "label": "A5: Full\n(ours)",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 3.9196785752107566,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8822930497585606,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      }
+    },
+    "baselines": {
+      "Ours (Adaptive CP)": {
+        "label": "Ours (Adaptive CP)",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 3.9196785752107566,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8822930497585606,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      },
+      "Temp. Scaling (Guo 2017)": {
+        "label": "Temp. Scaling\n(Guo 2017)",
+        "coverage": 0.5621049129422202,
+        "mean_margin_px": 0.0,
+        "median_margin_px": 0.0,
+        "mean_set_size": 1.0,
+        "n_kept": 11880,
+        "n_filtered": 156071,
+        "filter_rate": 0.9292650832683342,
+        "ece": 0.07575059307344029,
+        "size_coverage": {
+          "S": 0.2635437153584838,
+          "M": 0.59859500081686,
+          "L": 0.7909810126582278
+        },
+        "conf_threshold": 0.5325205447199813,
+        "total_gt": 18034,
+        "covered_gt": 10137
+      },
+      "Fixed BoxStd (vanilla CP)": {
+        "label": "Fixed BoxStd\n(vanilla CP)",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 10.0,
+        "median_margin_px": 10.0,
+        "mean_set_size": 1.0,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      },
+      "Two-Step CP (Timans 2024)": {
+        "label": "Two-Step CP\n(Timans 2024)",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 22.80049651316042,
+        "median_margin_px": 16.700001355849537,
+        "mean_set_size": 1.0,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      }
+    },
+    "cross_dataset": {
+      "COCO (in-dist.)": {
+        "label": "COCO (in-dist)",
+        "coverage": 0.8833869357879561,
+        "mean_margin_px": 3.9196785752107566,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8822930497585606,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.06920912535348965,
+        "size_coverage": {
+          "S": 0.7689969604863222,
+          "M": 0.938408756739095,
+          "L": 0.9313291139240506
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 15931
+      },
+      "Simulated shift (noise + conf)": {
+        "label": "Simulated shift",
+        "coverage": 0.7665520683154042,
+        "mean_margin_px": 4.265437714367311,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.9100928246929163,
+        "n_kept": 167951,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.04465183780414679,
+        "size_coverage": {
+          "S": 0.42803504380475593,
+          "M": 0.9072047051135436,
+          "L": 0.9299050632911392
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 18034,
+        "covered_gt": 13824
+      }
+    }
+  },
+  "yolov8x": {
+    "ablation": {
+      "A0: No CP (conf>0.5)": {
+        "label": "A0: No CP\n(conf>0.5)",
+        "coverage": 0.5510806595365418,
+        "mean_margin_px": 0.0,
+        "median_margin_px": 0.0,
+        "mean_set_size": 1.0,
+        "n_kept": 11522,
+        "n_filtered": 170039,
+        "filter_rate": 0.9365392347475504,
+        "ece": 0.06638032600938021,
+        "size_coverage": {
+          "S": 0.24907586692483719,
+          "M": 0.5924453280318092,
+          "L": 0.7862068965517242
+        },
+        "conf_threshold": 0.5,
+        "total_gt": 17952,
+        "covered_gt": 9893
+      },
+      "A1: Threshold only (APS)": {
+        "label": "A1: Threshold\nonly (APS)",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 2.0,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8898331690175754,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      },
+      "A2: + Fixed margins": {
+        "label": "A2: + Fixed\nmargins",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 2.0,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8898331690175754,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      },
+      "A3: + Size normalized": {
+        "label": "A3: + Size\nnormalized",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 6.863582348210433,
+        "median_margin_px": 3.726155090332031,
+        "mean_set_size": 2.8898331690175754,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      },
+      "A4: + Conf. bins (CQR)": {
+        "label": "A4: + Conf.\nbins (CQR)",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 3.803256091098218,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8898331690175754,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      },
+      "A5: Full (ours)": {
+        "label": "A5: Full\n(ours)",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 3.803256091098218,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8898331690175754,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      }
+    },
+    "baselines": {
+      "Ours (Adaptive CP)": {
+        "label": "Ours (Adaptive CP)",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 3.803256091098218,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8898331690175754,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      },
+      "Temp. Scaling (Guo 2017)": {
+        "label": "Temp. Scaling\n(Guo 2017)",
+        "coverage": 0.5674576648841355,
+        "mean_margin_px": 0.0,
+        "median_margin_px": 0.0,
+        "mean_set_size": 1.0,
+        "n_kept": 12064,
+        "n_filtered": 169497,
+        "filter_rate": 0.9335540121501864,
+        "ece": 0.06747721677611457,
+        "size_coverage": {
+          "S": 0.2696708325998944,
+          "M": 0.6121603711066932,
+          "L": 0.7955092221331195
+        },
+        "conf_threshold": 0.5325205447199813,
+        "total_gt": 17952,
+        "covered_gt": 10187
+      },
+      "Fixed BoxStd (vanilla CP)": {
+        "label": "Fixed BoxStd\n(vanilla CP)",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 10.0,
+        "median_margin_px": 10.0,
+        "mean_set_size": 1.0,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      },
+      "Two-Step CP (Timans 2024)": {
+        "label": "Two-Step CP\n(Timans 2024)",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 23.27028263312337,
+        "median_margin_px": 18.111756184265303,
+        "mean_set_size": 1.0,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      }
+    },
+    "cross_dataset": {
+      "COCO (in-dist.)": {
+        "label": "COCO (in-dist)",
+        "coverage": 0.8817959001782532,
+        "mean_margin_px": 3.803256091098218,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.8898331690175754,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.061893528131163784,
+        "size_coverage": {
+          "S": 0.7648301355395177,
+          "M": 0.9358846918489065,
+          "L": 0.9360064153969527
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 15830
+      },
+      "Simulated shift (noise + conf)": {
+        "label": "Simulated shift",
+        "coverage": 0.7635360962566845,
+        "mean_margin_px": 4.083035175380468,
+        "median_margin_px": 2.0,
+        "mean_set_size": 2.915086389698228,
+        "n_kept": 181561,
+        "n_filtered": 0,
+        "filter_rate": 0.0,
+        "ece": 0.0400624662201441,
+        "size_coverage": {
+          "S": 0.4240450624889984,
+          "M": 0.9062292909211398,
+          "L": 0.9347233360064154
+        },
+        "conf_threshold": 0.0,
+        "total_gt": 17952,
+        "covered_gt": 13707
+      }
+    }
+  }
+}
